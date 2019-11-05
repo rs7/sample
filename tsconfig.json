@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "module": "esnext",
+    "noImplicitAny": true,
+    "strictNullChecks": true
+  }
+}

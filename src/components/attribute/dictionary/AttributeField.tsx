@@ -1,0 +1,272 @@
+import React from "react";
+import {VariousClassName} from "../../../model/common/className/ClassName";
+import {createDictionaryAttributeFieldComponent} from "../../common/attributes/dictionary/DictionaryAttribute";
+import {createDictionaryListAttributeFieldComponent} from "../../common/attributes/dictionary/DictionaryListAttribute";
+
+export const ProgramAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.Programm);
+export const PortfolioAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.portfolio);
+export const ProgrammTypesAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.ProgrammTypes);
+export const ProjectsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.Projects);
+export const ProjectTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.ProjectType);
+
+export const TagListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.tags);
+
+export const DictionaryAttributeField = () => {};
+export const DictionaryListAttributeField = () => {};
+
+export const BindingAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.molecular_action);
+export const IsoformListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.isoform_ids);
+export const StatusAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.status);
+export const UserAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.DSUser);
+export const UserListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.DSUser);
+
+export const MethodAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.method);
+export const MethodListAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.method);
+
+export const SampleTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.sample_type);
+export const SampleTypeListAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.sample_type);
+
+export const BinderTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.binder_type);
+export const BinderTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.binder_type);
+
+export const MolecularActionAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.molecular_action);
+export const MolecularActionListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.molecular_action);
+
+export const TargetsDomainsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.targets_domains);
+export const TargetsDomainsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.targets_domains);
+
+export const IsoformIdsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.isoform_ids);
+export const IsoformIdsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.isoform_ids);
+
+export const EpitopeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.epitopes);
+export const EpitopesListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.epitopes);
+
+export const ReferentsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.referents);
+export const ReferentsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.referents);
+
+export const LimsCountryAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.lims_country);
+export const LimsCountryListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.lims_country);
+
+export const PackingAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.packing);
+export const PackingListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.packing);
+
+export const ProjectsCriteriaAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.projects_criteria);
+export const ProjectsCriteriaListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.projects_criteria);
+
+export const ProjectSequenceAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.project_sequence);
+export const ProjectSequenceListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.project_sequence);
+
+export const ProjectTargetAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.project_target);
+export const ProjectTargetListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.project_target);
+
+export const TestSystemAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.test_system);
+export const TestSystemListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.test_system);
+
+export const DSUserAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.DSUser);
+export const DSUserListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.DSUser);
+
+export const FusionAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.fusion);
+export const FusionListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.fusion);
+
+export const FcTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.fc_type);
+export const FcTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.fc_type);
+
+export const FormatAbAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.format_ab);
+export const FormatAbListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.format_ab);
+
+export const ErpMNNAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.ErpMNN);
+export const ErpMNNListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.ErpMNN);
+
+export const Molecule2AttributeField = createDictionaryAttributeFieldComponent(VariousClassName.molecule_2);
+export const Molecule2ListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.molecule_2);
+
+export const Manufacturer_2_2AttributeField = createDictionaryAttributeFieldComponent(VariousClassName.manufacturer_2_2);
+export const Manufacturer_2_2ListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.manufacturer_2_2);
+
+export const TransgenesAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.transgenes);
+export const TransgenesListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.transgenes);
+
+export const VectorAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.vector);
+export const VectorListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.vector);
+
+export const SerotypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.serotype);
+export const SerotypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.serotype);
+
+export const TerapyTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.terapy_type);
+export const TerapyTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.terapy_type);
+
+export const StageAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.stage);
+export const StageListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.stage);
+
+export const ERPMeasureUnitsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.erpMeasureUnits);
+export const ERPMeasureUnitsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.erpMeasureUnits);
+
+export const ConcentrationUnitsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.Concentration_units);
+export const Concentration_unitsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.Concentration_units);
+
+export const VolumesAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.volumes);
+export const VolumesListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.volumes);
+
+export const PurposeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.purpose);
+export const PurposeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.purpose);
+
+export const TechnologyKindAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.technology_kind);
+export const TechnologyKindListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.technology_kind);
+
+export const ChangesDescriptionsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.changes_descriptions);
+export const ChangesDescriptionsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.changes_descriptions);
+
+export const DevelopmentTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.development_type);
+export const DevelopmentTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.development_type);
+
+export const LimitingPatentsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.limiting_patents);
+export const LimitingPatentsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.limiting_patents);
+
+export const TimePeriodsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.time_periods);
+export const TimePeriodsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.time_periods);
+
+export const DosageFormAfsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.dosage_form_afs);
+export const DosageFormAfsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.dosage_form_afs);
+
+export const DosageAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.dosage);
+export const DosageListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.dosage);
+
+export const LimsDirLekPhormaAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.lims_DirLekPhorma);
+export const LimsDirLekPhormaListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.lims_DirLekPhorma);
+
+export const Storage_conditionAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.Storage_condition);
+export const Storage_conditionListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.Storage_condition);
+
+export const ActiveSubstanceAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.activeSubstance);
+export const ActiveSubstanceListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.activeSubstance);
+
+export const PackagingAfsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.packaging_afs);
+export const PackagingAfsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.packaging_afs);
+
+export const EquipmentItemsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.Equipment_items);
+export const EquipmentItemsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.Equipment_items);
+
+export const SpecialMarkingAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.special_marking);
+export const SpecialMarkingListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.special_marking);
+
+export const TransferFormAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.Transfer_form);
+export const TransferFormListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.Transfer_form);
+
+export const Transfer_typeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.Transfer_type);
+export const Transfer_typeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.Transfer_type);
+
+export const PartnerAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.partner);
+export const PartnerListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.partner);
+
+export const DkiTrialTypesAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.dki_trial_types);
+export const DkiTrialTypesListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.dki_trial_types);
+
+export const ResearchCentreAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.research_centre);
+export const ResearchCentreListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.research_centre);
+
+export const PhaseDkiAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.phase_dki);
+export const PhaseDkiListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.phase_dki);
+
+export const TrialGroupsNcsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.trial_groups_ncs);
+export const TrialGroupsNcsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.trial_groups_ncs);
+
+export const Nosologies_ICDAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.Nosologies_ICD);
+export const Nosologies_ICDListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.Nosologies_ICD);
+
+export const CentreClassificationAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.centre_classification);
+export const CentreClassificationListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.centre_classification);
+
+export const KiPhaseAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.ki_phase);
+export const KiPhaseListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.ki_phase);
+
+export const TrialGroupsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.trial_groups);
+export const TrialGroupsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.trial_groups);
+
+export const ControlTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.control_type);
+export const ControlTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.control_type);
+
+export const TrialTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.trial_type);
+export const TrialTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.trial_type);
+
+export const ComparisonsTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.comparisons_type);
+export const ComparisonsTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.comparisons_type);
+
+export const RegistrationTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.registration_type);
+export const RegistrationTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.registration_type);
+
+export const ChangesTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.changes_type);
+export const ChangesTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.changes_type);
+
+export const MerDocumentsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.mer_documents);
+export const MerDocumentsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.mer_documents);
+
+export const RegistrationSchemeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.registration_scheme);
+export const RegistrationSchemeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.registration_scheme);
+
+export const TypeOfDatesAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.type_of_dates);
+export const TypeOfDatesListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.type_of_dates);
+
+export const ProductTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.product_type);
+export const Product_typeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.product_type);
+
+export const InstructionsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.instructions);
+export const InstructionsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.instructions);
+
+export const ConstructionTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.construction_type);
+export const ConstructionTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.construction_type);
+
+export const ConstrObjectAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.constr_object);
+export const ConstrObjectListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.constr_object);
+
+export const RenovObjectAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.renov_object);
+export const RenovObjectListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.renov_object);
+
+export const WorkTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.workType);
+export const WorkTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.workType);
+
+export const LimsDepartmentsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.lims_departments);
+export const LimsDepartmentsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.lims_departments);
+
+export const ProjectTeamsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.project_teams);
+export const ProjectTeamsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.project_teams);
+
+export const ItServicesAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.itServices);
+export const ItServicesListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.itServices);
+
+export const SystemTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.system_Type);
+export const SystemTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.system_Type);
+
+export const EventTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.event_Type);
+export const EventTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.event_Type);
+
+export const BusinessUnitTypeAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.business_unit_type);
+export const BusinessUnitTypeListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.business_unit_type);
+
+export const TradeNameAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.trade_name);
+export const TradeNameListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.trade_name);
+
+export const ProjectCTAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.project_CT);
+export const ProjectCTListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.project_CT);
+
+export const LimsUnitsERPAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.lims_unitsERP);
+export const LimsUnitsERPListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.lims_unitsERP);
+
+export const InjectMethodAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.inject_method);
+export const InjectMethodListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.inject_method);
+
+export const PreparationAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.preparation);
+export const PreparationListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.preparation);
+
+export const OwnPatentsAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.own_patents);
+export const OwnPatentsListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.own_patents);
+
+export const ResearchListAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.researchList);
+export const ResearchListListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.researchList);
+
+export const MnnAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.mnn);
+export const MnnListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.mnn);
+
+export const NoveltyAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.novelty);
+export const NoveltyListAttributeField = createDictionaryListAttributeFieldComponent(VariousClassName.novelty);
+
+export const LinkTypeListAttributeField = createDictionaryAttributeFieldComponent(VariousClassName.linksType);
